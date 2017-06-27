@@ -1,0 +1,30 @@
+hr {
+	border-color: darkgrey;
+}
+
+.map-div {
+	position: relative;
+	background-image: url('../src/img/map_1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 485px;
+	min-width: 593px;
+}
+
+.BC-mover {
+	position: absolute;
+}
+
+.block-container {
+	position: relative;
+}
+
+.signal-block {
+	position: absolute;
+	height: 29px;
+	width: 29px;
+	border: 0.5px dashed lightgrey;
+	opacity: 0.7;
+	border-radius: 1px;
+}
